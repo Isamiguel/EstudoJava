@@ -1,0 +1,26 @@
+package Exercicio1;
+
+import java.util.Scanner;
+
+public class LacosConstantes {
+
+	public static void main(String[] args) {
+		
+		Scanner ler = new Scanner(System.in);
+		int num;
+		
+		System.out.println("Digite um numero inteiro:");
+		num = ler.nextInt();
+		
+		if(num >= 0) {
+			System.out.println("O numero + num é par e positivo");
+		if(num %2 == 0) {
+		}
+			else {
+				System.out.println("O numero + num + é impar e negativo");
+			}
+		}
+			}
+	
+
+	}

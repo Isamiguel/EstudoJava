@@ -1,0 +1,29 @@
+package While1;
+
+import java.util.Scanner;
+
+public class ExercicioWhile {
+
+	public static void main(String[] args) { 
+	
+		String continua = "s";
+		int num1,num2,num3,num4,resultado = 0;
+		Scanner leia = new Scanner(System.in);
+		
+		while(continua.equals("s"));
+		
+		System.out.println("\nDigite o primeiro numero: ");
+		num1 = leia.nextInt();
+		System.out.println("\nDigite o segundo numero: ");
+		num2 = leia.nextInt();
+		System.out.println("\nDigite o terceiro numero: ");
+		num3 = leia.nextInt();
+		System.out.println("\nDigite o quarto numero: ");
+		num4 = leia.nextInt();
+		resultado = num1+num2+num3+num4;
+		
+		System.out.println("Resultado final: " + resultado);
+		System.out.println("Deseja continuar? (s/n)");
+		continua = leia.next();
+	}
+		}

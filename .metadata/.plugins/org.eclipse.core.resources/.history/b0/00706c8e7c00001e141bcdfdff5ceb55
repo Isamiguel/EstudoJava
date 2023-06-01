@@ -1,0 +1,44 @@
+package estruturaDados;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+
+public class ExercicioFila {
+
+	public static void main(String[] args) {
+	
+		Queue<String> filaClientes = new LinkedList<>();
+        Scanner scanner = new Scanner(System.in);
+        int opcao;
+
+        do {
+            Menu();
+            opcao = scanner.nextInt();
+
+            switch (opcao) {
+            
+                case 1:
+                    adicionarCliente(filaClientes, scanner);
+                    break;
+                    
+                case 2:
+                    listarClientes(filaClientes);
+                    break;
+                    
+                case 3:
+                   Cliente(filaClientes);
+                    break;
+                    
+                case 0:
+                    System.out.println("Programa finalizado.");
+                    break;
+                    
+                default:
+                    System.out.println("Opção inválida. Tente novamente.");
+                    break;
+            }           
+        while (opcao != 0);	
+	}
+}
+}

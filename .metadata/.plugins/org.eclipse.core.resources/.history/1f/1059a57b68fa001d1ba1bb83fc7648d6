@@ -1,0 +1,21 @@
+package Notas;
+
+import java.util.Scanner;
+
+public class ExercicioNotas {
+
+	public static void main(String[] args) {
+		
+    float nota1,nota2,nota3,nota4,soma;
+    
+    Scanner leia = new Scanner(System.in);
+    
+    System.out.println("Digite a primeira nota");
+    System.out.println("Digite a segunda nota");
+    System.out.println("Digite a terceira nota");
+    System.out.println("Digite a quarta nota");
+ 
+      
+	}
+
+}
